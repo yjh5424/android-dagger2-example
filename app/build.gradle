@@ -3,15 +3,18 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
-
-//dagger 2
 apply plugin: 'kotlin-kapt'
 
+kapt {
+    generateStubs = true
+}
+
 android {
-    kapt {
-        generateStubs = true
-    }
     compileSdkVersion 27
+    dexOptions {
+        incremental false
+    }
+
     defaultConfig {
         applicationId "android.dagger2.demo.android_kotlin_dagger2"
         minSdkVersion 22
@@ -26,6 +29,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -37,14 +41,14 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    def latest_version = 2.12 // or latest version
+    def daggerVer = 2.13 // or latest version
 
-    implementation "com.google.dagger:dagger:$latest_version"
-    kapt  "com.google.dagger:dagger-compiler:$latest_version"
-    implementation "com.google.dagger:dagger-android:$latest_version"
-    kapt  "com.google.dagger:dagger-android-processor:$latest_version"
-    implementation "com.google.dagger:dagger-android-support:$latest_version"
-    kapt  "com.google.dagger:dagger-android-support:2.12"
+    implementation "com.google.dagger:dagger:$daggerVer"
+    implementation "com.google.dagger:dagger-android-support:$daggerVer"
+    kapt "com.google.dagger:dagger-android-processor:$daggerVer"
+    kapt "com.google.dagger:dagger-compiler:$daggerVer"
+    provided 'javax.annotation:jsr250-api:1.0'
+
 
     implementation('com.squareup.retrofit2:retrofit:2.3.0') {
         exclude module: 'okhttp'
