@@ -1,4 +1,4 @@
-package android.dagger2.demo.android_kotlin_dagger2.module
+package android.dagger2.demo.android_kotlin_dagger2.annotation
 
 import javax.inject.Scope
 

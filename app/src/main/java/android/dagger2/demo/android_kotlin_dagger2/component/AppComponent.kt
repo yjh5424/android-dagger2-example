@@ -1,7 +1,7 @@
-package android.dagger2.demo.android_kotlin_dagger2.Appcomponent
+package android.dagger2.demo.android_kotlin_dagger2.component
 
 import android.app.Application
-import android.dagger2.demo.android_kotlin_dagger2.MainActivity
+import android.dagger2.demo.android_kotlin_dagger2.ui.MainActivity
 import android.dagger2.demo.android_kotlin_dagger2.module.AppModule
 import android.dagger2.demo.android_kotlin_dagger2.module.NetworkModule
 import dagger.Component

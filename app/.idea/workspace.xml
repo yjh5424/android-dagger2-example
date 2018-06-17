@@ -28,52 +28,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyApplication.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyApplication.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/MyApplication.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="e#53#450#0" expanded="true" />
+                <element signature="e#53#444#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="272">
+              <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DaggerAppComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/generated/source/kapt/debug/android/dagger2/demo/android_kotlin_dagger2/Appcomponent/DaggerAppComponent.java">
+        <entry file="file://$PROJECT_DIR$/build/generated/source/kapt/debug/android/dagger2/demo/android_kotlin_dagger2/component/DaggerAppComponent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1529242735162" expanded="true" signature="1696:1729" ph="{...}" />
-                <marker date="1529242735162" expanded="true" signature="1696:1733" ph="{...}" />
+                <marker date="1529242920821" expanded="true" signature="1696:1729" ph="{...}" />
+                <marker date="1529242920821" expanded="true" signature="1696:1733" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AppComponent.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/Appcomponent/AppComponent.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/component/AppComponent.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <element signature="e#66#354#0" expanded="true" />
+                <element signature="e#63#354#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,20 +82,30 @@
       <file leaf-file-name="ActivityModule.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/ActivityModule.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <element signature="e#60#131#0" expanded="true" />
+                <element signature="e#60#161#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="UserScope.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/UserScope.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/annotation/UserScope.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AcitivtyScope.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/annotation/AcitivtyScope.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/AppModule.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#60#164#0" expanded="true" />
               </folding>
@@ -116,7 +126,7 @@
       <file leaf-file-name="NetworkModule.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/NetworkModule.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="257">
               <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="e#60#469#0" expanded="true" />
@@ -125,21 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/MainActivity.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/ui/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -2336,8 +2336,6 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/ApplicationModule.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/AppModule.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/ActivityModule.kt" />
         <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/UserScope.kt" />
         <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/App.kt" />
         <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/Application.kt" />
@@ -2346,8 +2344,13 @@
         <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/Appcomponent/ApplicationComponent.kt" />
         <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/NetworkModule.kt" />
         <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/Appcomponent/AppComponent.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/MyApplication.kt" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/ui/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/annotation/UserScope.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/annotation/AcitivtyScope.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/AppModule.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/ActivityModule.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/MyApplication.kt" />
       </list>
     </option>
   </component>
@@ -2394,7 +2397,14 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="android_kotlin_dagger2" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Appcomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android_kotlin_dagger2" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
@@ -2427,6 +2437,10 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/GitHub/android-dagger2-example/app/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/AppModule.kt" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="android.dagger2.demo.android_kotlin_dagger2.annotation" />
+      <recent name="android.dagger2.demo.android_kotlin_dagger2.ui" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\android-dagger2-example\app\src\main\java\android\dagger2\demo\android_kotlin_dagger2\Appcomponent" />
     </key>
@@ -2614,7 +2628,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297062" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2643,7 +2657,7 @@
         <state relative-caret-position="272">
           <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="42" />
           <folding>
-            <element signature="e#53#450#0" expanded="true" />
+            <element signature="e#53#444#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2680,7 +2694,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/ui/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
@@ -2760,14 +2774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/UserScope.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/Appcomponent/ApplicationComponent.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -2784,72 +2790,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/kapt/debug/android/dagger2/demo/android_kotlin_dagger2/Appcomponent/DaggerAppComponent.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/kapt/debug/android/dagger2/demo/android_kotlin_dagger2/component/DaggerAppComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1529242735162" expanded="true" signature="1696:1729" ph="{...}" />
-            <marker date="1529242735162" expanded="true" signature="1696:1733" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/AppModule.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#60#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/ActivityModule.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#60#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/Appcomponent/AppComponent.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#66#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/NetworkModule.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#60#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/MyApplication.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="e#53#450#0" expanded="true" />
+            <marker date="1529242920821" expanded="true" signature="1696:1729" ph="{...}" />
+            <marker date="1529242920821" expanded="true" signature="1696:1733" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2859,9 +2807,83 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="272">
+          <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/ui/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/annotation/UserScope.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/annotation/AcitivtyScope.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/component/AppComponent.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#63#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/ActivityModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#60#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/AppModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#60#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/module/NetworkModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#60#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/android/dagger2/demo/android_kotlin_dagger2/MyApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#53#444#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

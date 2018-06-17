@@ -1,5 +1,6 @@
-package android.dagger2.demo.android_kotlin_dagger2
+package android.dagger2.demo.android_kotlin_dagger2.ui
 
+import android.dagger2.demo.android_kotlin_dagger2.R
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
