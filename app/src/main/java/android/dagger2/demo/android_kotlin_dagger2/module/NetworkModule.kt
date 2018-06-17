@@ -10,7 +10,6 @@ import com.google.gson.FieldNamingPolicy
 import com.google.gson.GsonBuilder
 import android.app.Application
 import dagger.Module
-import okhttp3.Cache
 import okhttp3.Interceptor
 import okhttp3.logging.HttpLoggingInterceptor
 
@@ -32,9 +31,7 @@ class NetworkModule(var mBaseUrl: String) {
     @Provides
     @Singleton
     fun provideGson(): Gson {
-        val gsonBuilder = GsonBuilder()
-        gsonBuilder.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
-        return gsonBuilder.create()
+         return GsonBuilder().create()
     }
 
     @Provides

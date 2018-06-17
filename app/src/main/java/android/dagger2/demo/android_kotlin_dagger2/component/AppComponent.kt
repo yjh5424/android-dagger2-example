@@ -12,8 +12,7 @@ import javax.inject.Singleton
         modules = [(AppModule::class),(NetworkModule::class)]
 )
 interface AppComponent{
-    fun inject(application: Application)
-
+    //inject 할 액티비티 지정
     fun inject(mainActivity: MainActivity)
 
 }
