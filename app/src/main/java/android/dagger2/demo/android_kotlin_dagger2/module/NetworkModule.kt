@@ -18,7 +18,6 @@ import okhttp3.logging.HttpLoggingInterceptor
 @Module
 class NetworkModule(var mBaseUrl: String) {
 
-
     @Provides
     @Singleton
     fun provideOkHttpClient(interceptor: Interceptor): OkHttpClient {
@@ -29,7 +28,7 @@ class NetworkModule(var mBaseUrl: String) {
                 .addInterceptor(interceptor)
                 .build()
     }
-    
+
     @Provides
     @Singleton
     fun provideGson(): Gson {

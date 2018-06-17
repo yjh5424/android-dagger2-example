@@ -4,6 +4,7 @@ import android.app.Application
 import android.dagger2.demo.android_kotlin_dagger2.Appcomponent.AppComponent
 import android.dagger2.demo.android_kotlin_dagger2.Appcomponent.DaggerAppComponent
 import android.dagger2.demo.android_kotlin_dagger2.module.AppModule
+import android.dagger2.demo.android_kotlin_dagger2.module.NetworkModule
 import android.location.LocationManager
 import javax.inject.Inject
 
@@ -20,6 +21,9 @@ class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        graph=DaggerAppComponent.builder().appModule(AppModule(this)).build()
+        graph=DaggerAppComponent.builder()
+                .appModule(AppModule(this))
+                .networkModule(NetworkModule("baseURL"))
+                .build()
     }
 }
