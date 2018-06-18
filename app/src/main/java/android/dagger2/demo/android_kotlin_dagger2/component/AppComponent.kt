@@ -13,6 +13,6 @@ import javax.inject.Singleton
 )
 interface AppComponent{
     //inject 할 액티비티 지정
-    fun inject(mainActivity: MainActivity)
+    fun inject(application: Application)
 
 }
