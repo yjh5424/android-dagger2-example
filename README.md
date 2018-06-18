@@ -5,6 +5,7 @@
 의존성 주입을 하기위한 어노테이션   
 
  <code>
+ 
         @Inject   
         lateinit var presenter: MainContract.Presenter
  </code>

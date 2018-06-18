@@ -12,15 +12,17 @@ class MyApplication : Application() {
 
     companion object {
         //platformStatic allow access it from java code
-        @JvmStatic lateinit var graph: AppComponent
+        @JvmStatic lateinit var component: AppComponent
     }
 
     override fun onCreate() {
         super.onCreate()
 
-        graph=DaggerAppComponent.builder()
+        component=DaggerAppComponent.builder()
                 .appModule(AppModule(this))
                 .networkModule(NetworkModule("baseURL"))
                 .build()
+
+        component.inject(this)
     }
 }
