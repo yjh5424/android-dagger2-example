@@ -27,7 +27,7 @@ class NetworkModule(var mBaseUrl: String) {
                 .addInterceptor(interceptor)
                 .build()
     }
-
+    
     @Provides
     @Singleton
     fun provideGson(): Gson {

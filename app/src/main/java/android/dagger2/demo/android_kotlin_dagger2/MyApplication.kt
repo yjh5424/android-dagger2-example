@@ -13,6 +13,7 @@ class MyApplication : Application() {
     companion object {
         //platformStatic allow access it from java code
         @JvmStatic lateinit var component: AppComponent
+        val BASE_URL="https://api.github.com/"
     }
 
     override fun onCreate() {
@@ -20,11 +21,13 @@ class MyApplication : Application() {
 
         component=DaggerAppComponent.builder()
                 .appModule(AppModule(this))
-                .networkModule(NetworkModule("baseURL"))
+                .networkModule(NetworkModule(BASE_URL))
                 .build()
 
         component.inject(this)
     }
+
+
 
 
 }
